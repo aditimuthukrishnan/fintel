@@ -1,8 +1,8 @@
-# 📈 Stock Market ETL Pipeline
+# Stock Market ETL Pipeline
 
 A Python ETL pipeline that extracts real stock market data, transforms it with technical indicators, stores it in a database, and visualizes it with interactive charts.
 
-## 🚀 Features
+## Features
 
 - **Extract** — Pulls historical OHLCV data from Yahoo Finance (free, no API key needed)
 - **Transform** — Cleans data and calculates SMA, EMA, RSI, Bollinger Bands, daily returns
@@ -10,7 +10,7 @@ A Python ETL pipeline that extracts real stock market data, transforms it with t
 - **Visualize** — Interactive candlestick, RSI, MA, and returns charts via Plotly
 - **Scheduler** — Runs automatically every weekday at 4:30 PM EST
 
-## 🛠️ Setup
+## Setup
 
 ```bash
 # 1. Clone the repo
@@ -22,6 +22,8 @@ pip install -r requirements.txt
 
 # 3. Run the pipeline
 python main.py
+
+if on mac pls use python3!!!
 ```
 
 ## 📖 Usage
@@ -73,7 +75,7 @@ stock-etl-pipeline/
 | Bollinger Bands | Volatility bands (20-period) |
 | Daily Return % | Day-over-day % change |
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - `yfinance` — Free stock data
 - `pandas` — Data processing
